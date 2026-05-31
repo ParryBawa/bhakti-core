@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bhakti Cloud Content Generator</title>
+    <style>
+        :root { --primary: #E65100; --bg: #FFF3E0; --card: #FFFFFF; --text: #3E2723; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; background: var(--card); padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: var(--primary); text-align: center; margin-bottom: 30px; border-bottom: 3px solid var(--primary); padding-bottom: 10px; }
+        .meta-group { display: grid; grid-template-columns: 1fr; gap: 20px; margin-bottom: 30px; }
+        .form-control { display: flex; flex-direction: column; margin-bottom: 15px; }
+        label { font-weight: bold; margin-bottom: 5px; color: var(--text); }
+        input[type="text"], input[type="file"] { padding: 10px; border: 2px solid #D7CCC8; border-radius: 6px; font-size: 16px; transition: border-color 0.3s; background: white; }
+        input[type="text"]:focus { border-color: var(--primary); outline: none; }
+        .auto-preview-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; background: #efebe9; padding: 12px; border-radius: 6px; margin-top: 5px; font-size: 13px; color: #5d4037; }
+        .stanza-card { background: #FAFFA0; border: 2px solid #FFE082; padding: 20px; border-radius: 8px; margin-bottom: 20px; position: relative; }
+        .stanza-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 1px dashed #BCAAA4; padding-bottom: 5px; }
+        textarea { width: 100%; height: 60px; padding: 8px; border: 1px solid #CFD8DC; border-radius: 4px; resize: vertical; font-size: 15px; box-sizing: border-box; }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 10px; }
+        button { cursor: pointer; padding: 12px 20px; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; transition: all 0.3s; }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-primary:hover { background: #BF360C; }
+        .btn-secondary { background: #8D6E63; color: white; margin-bottom: 20px; }
+        .btn-secondary:hover { background: #5D4037; }
+        .btn-danger { background: #D84315; color: white; padding: 6px 12px; font-size: 14px; }
+        .actions { display: flex; justify-content: space-between; margin-top: 30px; border-top: 2px solid #D7CCC8; padding-top: 20px; }
+        .status-bar { background: #E8F5E9; color: #2E7D32; padding: 10px; border-radius: 6px; margin-bottom: 20px; text-align: center; font-weight: bold; display: none; }
+        .sync-banner { display: flex; justify-content: space-between; align-items: center; background: #ECEFF1; padding: 12px; border-radius: 6px; margin-bottom: 20px; border-left: 5px solid #607D8B; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🗲 Bhakti Cloud Content Generator</h1>
+    
+    <div id="statusBar" class="status-bar"></div>
+
+    <div class="sync-banner">
+        <span id="folderStatus">🔴 Root Workspace Folder Link Missing</span>
+        <button type="button" id="dirBtn" class="btn-primary" style="padding: 6px 12px; font-size: 14px;" onclick="handleDirectorySetup()">Link Workspace Directory</button>
+    </div>
+
+    <form id="dbForm" onsubmit="event.preventDefault();">
+        <div class="meta-group">
+            <div class="form-control">
+                <label>Track Title (e.g., Shiv Tandav Stotram)</label>
+                <input type="text" id="trackTitle" placeholder="Enter Display Title" required oninput="evaluateNamingInferences()">
+                
+                <div class="auto-preview-grid">
+                    <div><strong>File ID:</strong> <span id="viewFileId">-</span></div>
+                    <div><strong>Audio Target:</strong> <span id="viewAudioName">-</span></div>
+                </div>
+            </div>
+
+            <div class="form-control">
+                <label>Upload Audio Asset (.mp3) <span style="color:#757575; font-weight:normal;">(Optional - Leave empty to preserve existing link)</span></label>
+                <input type="file" id="audioFileInput" accept="audio/mp3, audio/*" onchange="autoSaveFormCache()">
+            </div>
+        </div>
+
+        <div id="stanzasContainer"></div>
+
+        <button type="button" class="btn-secondary" onclick="addStanzaBlock()">+ Add Stanza Block</button>
+
+        <div class="actions">
+            <button type="button" class="btn-primary" style="background:#4CAF50;" onclick="commitDataAssetsToHardware()">Direct Save Assets & Update Registry</button>
+            <button type="button" class="btn-danger" style="background:#78909C;" onclick="clearStagingCache()">Reset Form</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    let dirHandle = null;
+    let stanzaCount = 0;
+    const DB_NAME = 'BhaktiCloudGCM';
+    const STORE_NAME = 'Handles';
+    const CACHE_KEY = 'form_state_cache_v2';
+    
+    const GITHUB_USER = "ParryBawa"; 
+    const REPO_NAME = "bhakti-core";
+
+    window.addEventListener('DOMContentLoaded', async () => {
+        loadFormCache();
+        await initIndexedDBHandle();
+    });
+
+    function getDB() {
+        return new Promise((resolve, reject) => {
+            const request = indexedDB.open(DB_NAME, 1);
+            request.onupgradeneeded = (e) => e.target.result.createObjectStore(STORE_NAME);
+            request.onsuccess = (e) => resolve(e.target.result);
+            request.onerror = (e) => reject(e.target.error);
+        });
+    }
+
+    async function initIndexedDBHandle() {
+        try {
+            const db = await getDB();
+            const tx = db.transaction(STORE_NAME, 'readonly');
+            dirHandle = await new Promise((res) => {
+                const req = tx.objectStore(STORE_NAME).get('rootFolder');
+                req.onsuccess = () => res(req.result);
+            });
+
+            if (dirHandle) {
+                // STEP 2 FIXED: Banner status verification demand open rakhi hai taaki direct bypass na ho
+                document.getElementById('folderStatus').innerText = "💡 Access Verification Button Force-Enabled";
+                document.getElementById('dirBtn').innerText = "Verify Access / Relink Folder";
+                document.getElementById('dirBtn').style.background = "#FF9800";
+                document.getElementById('dirBtn').style.display = "block"; // Always open for manual token re-auth
+            }
+        } catch (err) { console.error(err); }
+    }
+
+    async function handleDirectorySetup() {
+        try {
+            // Force-open directory picker to fetch fresh local dynamic system handle token
+            dirHandle = await window.showDirectoryPicker({ mode: 'readwrite' });
+            const db = await getDB();
+            const tx = db.transaction(STORE_NAME, 'readwrite');
+            tx.objectStore(STORE_NAME).put(dirHandle, 'rootFolder');
+
+            document.getElementById('folderStatus').innerText = "🟢 Workspace Synchronized (Token Active)";
+            // document.getElementById('dirBtn').style.display = "none"; // Commented out to keep the re-auth route hamesha operational
+            document.getElementById('dirBtn').innerText = "Re-Verify / Change Folder";
+            document.getElementById('dirBtn').style.background = "#4CAF50";
+            showStatus("Workspace re-linked and verified successfully!");
+        } catch (err) { alert("Verification error: " + err); }
+    }
+
+    function evaluateNamingInferences() {
+        const titleVal = document.getElementById('trackTitle').value.trim();
+        if(!titleVal) {
+            document.getElementById('viewFileId').innerText = "-";
+            document.getElementById('viewAudioName').innerText = "-";
+            return;
+        }
+
+        const computedId = titleVal.toLowerCase()
+            .replace(/[^a-z0-9\s_]/g, '')
+            .replace(/\s+/g, '_')
+            .replace(/_+/g, '_');
+
+        document.getElementById('viewFileId').innerText = computedId;
+        document.getElementById('viewAudioName').innerText = `${computedId}.mp3`;
+
+        autoSaveFormCache();
+    }
+
+    function autoSaveFormCache() {
+        const trackTitle = document.getElementById('trackTitle').value.trim();
+        const cards = document.querySelectorAll('.stanza-card');
+        const contentBlocks = [];
+
+        cards.forEach((card, idx) => {
+            contentBlocks.push({
+                stanzaNumber: idx + 1,
+                original: card.querySelector('.input-original').value,
+                transliteration: card.querySelector('.input-transliteration').value,
+                translation: card.querySelector('.input-translation').value,
+                meanings: card.querySelector('.input-meanings').value
+            });
+        });
+
+        localStorage.setItem(CACHE_KEY, JSON.stringify({ trackTitle, contentBlocks }));
+    }
+
+    function loadFormCache() {
+        const cached = localStorage.getItem(CACHE_KEY);
+        if (!cached) return;
+        try {
+            const data = JSON.parse(cached);
+            document.getElementById('trackTitle').value = data.trackTitle || '';
+            evaluateNamingInferences();
+
+            if (data.contentBlocks) {
+                const container = document.getElementById('stanzasContainer');
+                container.innerHTML = '';
+                stanzaCount = 0;
+                data.contentBlocks.forEach(b => addStanzaBlock(b));
+            }
+        } catch(e) { console.error(e); }
+    }
+
+    function addStanzaBlock(data = null) {
+        stanzaCount++;
+        const container = document.getElementById('stanzasContainer');
+        const card = document.createElement('div');
+        card.className = 'stanza-card';
+        card.id = `stanza_block_${stanzaCount}`;
+        
+        const orig = data ? data.original : '';
+        const translit = data ? data.transliteration : '';
+        const trans = data ? data.translation : '';
+        const mean = data ? data.meanings : '';
+
+        card.innerHTML = `
+            <div class="stanza-header">
+                <span><strong>Stanza #${stanzaCount}</strong></span>
+                <button type="button" class="btn-danger" onclick="removeStanzaBlock(${stanzaCount})">Delete</button>
+            </div>
+            <div class="form-control">
+                <label>Original Script (Sanskrit / Hindi)</label>
+                <textarea class="input-original" required oninput="autoSaveFormCache()">${orig}</textarea>
+            </div>
+            <div class="form-control">
+                <label>Transliteration (English Reading)</label>
+                <textarea class="input-transliteration" required oninput="autoSaveFormCache()">${translit}</textarea>
+            </div>
+            <div class="grid-2">
+                <div class="form-control">
+                    <label>Translation</label>
+                    <textarea class="input-translation" oninput="autoSaveFormCache()">${trans}</textarea>
+                </div>
+                <div class="form-control">
+                    <label>Word Meanings</label>
+                    <textarea class="input-meanings" placeholder="Word = Meaning" oninput="autoSaveFormCache()">${mean}</textarea>
+                </div>
+            </div>
+        `;
+        container.appendChild(card);
+        if(!data) autoSaveFormCache();
+    }
+
+    function removeStanzaBlock(id) {
+        const card = document.getElementById(`stanza_block_${id}`);
+        if(card) { card.remove(); reindexStanzas(); }
+    }
+
+    function reindexStanzas() {
+        const cards = document.querySelectorAll('.stanza-card');
+        stanzaCount = 0;
+        cards.forEach((card, idx) => {
+            stanzaCount = idx + 1;
+            card.id = `stanza_block_${stanzaCount}`;
+            card.querySelector('.stanza-header span strong').innerText = `Stanza #${stanzaCount}`;
+        });
+        autoSaveFormCache();
+    }
+
+    async function commitDataAssetsToHardware() {
+        if (!dirHandle) {
+            alert("Bhai, pehle top par 'Verify Access / Relink Folder' par click karke workspace re-link karo!");
+            return;
+        }
+
+        const trackTitle = document.getElementById('trackTitle').value.trim();
+        const fileId = document.getElementById('viewFileId').innerText;
+        const audioName = document.getElementById('viewAudioName').innerText;
+        const audioFileFile = document.getElementById('audioFileInput').files[0];
+
+        if (!trackTitle || fileId === "-") {
+            alert("Track Title daalna zaroori hai, Bhai!");
+            return;
+        }
+
+        let dbDirHandle, audioDirHandle;
+        try {
+            dbDirHandle = await dirHandle.getDirectoryHandle('database', { create: true });
+        } catch(e) { dbDirHandle = dirHandle; }
+
+        try {
+            audioDirHandle = await dirHandle.getDirectoryHandle('audio', { create: true });
+        } catch(e) { audioDirHandle = dirHandle; }
+
+        // Default standard CDN URL path fallback
+        let finalAudioUrl = `https://raw.githubusercontent.com/${GITHUB_USER}/${REPO_NAME}/main/audio/${audioName}`;
+        
+        // FOOLPROOF ISOLATED LOOKUP BLOCK (Koi break error pass nahi hoga)
+        try {
+            const existingFileHandle = await dbDirHandle.getFileHandle(`${fileId}.json`, { create: false });
+            const file = await existingFileHandle.getFile();
+            const contents = await file.text();
+            if (contents) {
+                const parsed = JSON.parse(contents);
+                if (parsed.audioStream) {
+                    finalAudioUrl = parsed.audioStream;
+                }
+            }
+        } catch(e) {
+            // Safe fallback standard CDN template remains active
+        }
+
+        const cards = document.querySelectorAll('.stanza-card');
+        const contentBlocks = [];
+        cards.forEach((card, idx) => {
+            contentBlocks.push({
+                stanzaNumber: idx + 1,
+                original: card.querySelector('.input-original').value,
+                transliteration: card.querySelector('.input-transliteration').value,
+                translation: card.querySelector('.input-translation').value,
+                meanings: card.querySelector('.input-meanings').value
+            });
+        });
+
+        const trackPayload = { title: trackTitle, audioStream: finalAudioUrl, audioName: audioName, contentBlocks };
+
+        try {
+            // 1. Write the metadata JSON into workspace/database/
+            const dataFileHandle = await dbDirHandle.getFileHandle(`${fileId}.json`, { create: true });
+            const dataWritable = await dataFileHandle.createWritable();
+            await dataWritable.write(JSON.stringify(trackPayload, null, 2));
+            await dataWritable.close();
+
+            // 2. Write the binary audio file ONLY if it is selected
+            if (audioFileFile) {
+                const targetAudioHandle = await audioDirHandle.getFileHandle(audioName, { create: true });
+                const audioWritable = await targetAudioHandle.createWritable();
+                await audioWritable.write(audioFileFile);
+                await audioWritable.close();
+            }
+
+            // 3. Sync master registry.json inside database subfolder
+            let registryArray = [];
+            try {
+                const regFileHandle = await dbDirHandle.getFileHandle('registry.json', { create: false });
+                const file = await regFileHandle.getFile();
+                const contents = await file.text();
+                if (contents) registryArray = JSON.parse(contents);
+            } catch (e) {}
+
+            registryArray = registryArray.filter(item => item.id !== fileId);
+            registryArray.push({
+                id: fileId,
+                title: trackTitle,
+                fetchUrl: `https://raw.githubusercontent.com/${GITHUB_USER}/${REPO_NAME}/main/database/${fileId}.json`
+            });
+
+            const regWritableHandle = await dbDirHandle.getFileHandle('registry.json', { create: true });
+            const regWritable = await regWritableHandle.createWritable();
+            await regWritable.write(JSON.stringify(registryArray, null, 2));
+            await regWritable.close();
+
+            showStatus(`Success: Assets saved! Audio update: ${audioFileFile ? 'Uploaded New Asset' : 'Preserved Existing/Default Link'}`);
+            
+            localStorage.removeItem(CACHE_KEY);
+            document.getElementById('dbForm').reset();
+            document.getElementById('stanzasContainer').innerHTML = '';
+            stanzaCount = 0;
+            evaluateNamingInferences();
+
+        } catch (err) {
+            alert("Hardware level file write error: " + err + "\n\nBhai, agar permission timeout dikha raha hai, toh top par orange button daba kar folder re-verify kar lo!");
+        }
+    }
+
+    function clearStagingCache() {
+        if(confirm("Clear current workspace cache?")) {
+            localStorage.removeItem(CACHE_KEY);
+            document.getElementById('dbForm').reset();
+            document.getElementById('stanzasContainer').innerHTML = '';
+            stanzaCount = 0;
+            evaluateNamingInferences();
+            showStatus("Form reset successful.");
+        }
+    }
+
+    function showStatus(msg) {
+        const bar = document.getElementById('statusBar');
+        bar.innerText = msg;
+        bar.style.display = 'block';
+        setTimeout(() => { bar.style.display = 'none'; }, 5000);
+    }
+</script>
+</body>
+</html>
