@@ -2,5 +2,13 @@
   "title": "Gayatri Mantra",
   "audioStream": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/audio/gayatri_mantra.mp3",
   "audioName": "gayatri_mantra.mp3",
-  "contentBlocks": []
+  "contentBlocks": [
+    {
+      "stanzaNumber": 1,
+      "original": "ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यं\nभर्गो देवस्य धीमहि धियो यो नः प्रचोदयात्",
+      "transliteration": "oṃ bhūrbhuvaḥ svaḥ tatsaviturvareṇyaṃ\nbhargo devasya dhīmahi dhiyo yo naḥ prachodayāt",
+      "translation": "We meditate upon the divine light of that adorable Sun (the Supreme Truth), who illuminates all three realms (physical, astral, and celestial). May He enlighten our intellect and awaken our understanding, so that it may guide us along the righteous path.",
+      "meanings": "ॐ (oṃ) – sacred sound; भूः (bhūḥ) – earth; भुवः (bhuvaḥ) – atmosphere; स्वः (svaḥ) – heaven; तत् (tat) – that; सवितुः (savituḥ) – of the Sun; वरेण्यम् (vareṇyam) – adorable; भर्गः (bhargaḥ) – divine light; देवस्य (devasya) – of the deity; धीमहि (dhīmahi) – we meditate; धियः (dhiyaḥ) – intellects; यः (yaḥ) – who; नः (naḥ) – our; प्रचोदयात् (pracodayāt) – may inspire;"
+    }
+  ]
 }
