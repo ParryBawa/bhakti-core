@@ -1,5 +1,10 @@
 [
   {
+    "id": "ganesha_pancharathnam",
+    "title": "Ganesha Pancharathnam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ganesha_pancharathnam.json"
+  },
+  {
     "id": "gayatri_mantra",
     "title": "Gayatri Mantra",
     "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/gayatri_mantra.json"
@@ -13,6 +18,11 @@
     "id": "karpura_gauram",
     "title": "Karpura Gauram",
     "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/karpura_gauram.json"
+  },
+  {
+    "id": "lingashtakam",
+    "title": "Lingashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/lingashtakam.json"
   },
   {
     "id": "nirvana_shatakam",

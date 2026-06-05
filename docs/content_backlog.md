@@ -21,3 +21,5 @@ This file tracks content that has been added to the database but still needs enr
 | ID | Title | Notes |
 |---|---|---|
 | hanuman_chalisa | Hanuman Chalisa | Imported with blank meanings for now. Add curated word meanings later. |
+| lingashtakam | Lingashtakam | Missing | No local MP3 added yet. |
+| ganesha_pancharathnam | Ganesha Pancharathnam | Missing | No local MP3 added yet. |
