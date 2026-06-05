@@ -201,7 +201,7 @@
                 <button type="button" class="btn-danger" onclick="removeStanzaBlock(${stanzaCount})">Delete</button>
             </div>
             <div class="form-control">
-                <label>Original Script (Sanskrit / Hindi)</label>
+                <label>Original</label>
                 <textarea class="input-original" required oninput="autoSaveFormCache()">${orig}</textarea>
             </div>
             <div class="form-control">
@@ -232,9 +232,12 @@
         const cards = document.querySelectorAll('.stanza-card');
         stanzaCount = 0;
         cards.forEach((card, idx) => {
-            stanzaCount = idx + 1;
-            card.id = `stanza_block_${stanzaCount}`;
-            card.querySelector('.stanza-header span strong').innerText = `Stanza #${stanzaCount}`;
+            const nextIndex = idx + 1;
+            stanzaCount = nextIndex;
+            card.id = `stanza_block_${nextIndex}`;
+            card.querySelector('.stanza-header span strong').innerText = `Stanza #${nextIndex}`;
+            const deleteBtn = card.querySelector('.stanza-header .btn-danger');
+            if (deleteBtn) deleteBtn.onclick = () => removeStanzaBlock(nextIndex);
         });
         autoSaveFormCache();
     }
