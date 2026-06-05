@@ -5,6 +5,11 @@
     "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/gayatri_mantra.json"
   },
   {
+    "id": "hanuman_chalisa",
+    "title": "Hanuman Chalisa",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/hanuman_chalisa.json"
+  },
+  {
     "id": "karpura_gauram",
     "title": "Karpura Gauram",
     "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/karpura_gauram.json"
