@@ -1,0 +1,8 @@
+- JSON is valid
+- title exists
+- contentBlocks exists
+- each stanza has original, transliteration, translation, meanings
+- stanza numbers are sequential
+- registry.json includes every shloka
+- fetchUrl matches the GitHub raw URL format
+- audioName and audioStream are valid

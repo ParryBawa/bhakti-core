@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "shiva_tandava_stotram",
     "title": "Shiva Tandava Stotram",
@@ -8,5 +8,10 @@
     "id": "gayatri_mantra",
     "title": "Gayatri Mantra",
     "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/gayatri_mantra.json"
+  },
+  {
+    "id": "nirvana_shatakam",
+    "title": "Nirvana Shatakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/nirvana_shatakam.json"
   }
 ]

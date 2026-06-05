@@ -1,0 +1,11 @@
+
+# Local shloka working files
+source_data/
+
+# Local registry backups
+database/registry.backup.json
+database/registry.before_3_item_fix.json
+
+# Temporary/log files
+*.log
+*.tmp
