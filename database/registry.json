@@ -1,13 +1,13 @@
-﻿[
-  {
-    "id": "shiva_tandava_stotram",
-    "title": "Shiva Tandava Stotram",
-    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_tandava_stotram.json"
-  },
+[
   {
     "id": "gayatri_mantra",
     "title": "Gayatri Mantra",
     "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/gayatri_mantra.json"
+  },
+  {
+    "id": "karpura_gauram",
+    "title": "Karpura Gauram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/karpura_gauram.json"
   },
   {
     "id": "nirvana_shatakam",
@@ -15,8 +15,8 @@
     "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/nirvana_shatakam.json"
   },
   {
-    "id": "karpura_gauram",
-    "title": "Karpura Gauram",
-    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/karpura_gauram.json"
+    "id": "shiva_tandava_stotram",
+    "title": "Shiva Tandava Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_tandava_stotram.json"
   }
 ]
