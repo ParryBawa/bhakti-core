@@ -1,8 +1,483 @@
 [
   {
+    "id": "aadya_kalika_ashtottara_sata_namavali",
+    "title": "Aadya Kalika Ashtottara Sata Namavali",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/aadya_kalika_ashtottara_sata_namavali.json"
+  },
+  {
+    "id": "aapadhaam_apahartharam",
+    "title": "Aapadhaam Apahartharam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/aapadhaam_apahartharam.json"
+  },
+  {
+    "id": "acyutam_kesavam",
+    "title": "Acyutam Kesavam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/acyutam_kesavam.json"
+  },
+  {
+    "id": "adau_devaki_devi",
+    "title": "Adau Devaki Devi",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/adau_devaki_devi.json"
+  },
+  {
+    "id": "adau_rama_tapovanadi",
+    "title": "Adau Rama Tapovanadi",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/adau_rama_tapovanadi.json"
+  },
+  {
+    "id": "aditya_hrudayam",
+    "title": "Aditya Hrudayam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/aditya_hrudayam.json"
+  },
+  {
+    "id": "aditya_kavacham",
+    "title": "Aditya Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/aditya_kavacham.json"
+  },
+  {
+    "id": "agajanana_padmakam",
+    "title": "Agajanana Padmakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/agajanana_padmakam.json"
+  },
+  {
+    "id": "agastya_kruta_sri_lakshmi_stotram",
+    "title": "Agastya Kruta Sri Lakshmi Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/agastya_kruta_sri_lakshmi_stotram.json"
+  },
+  {
+    "id": "aghamarshana_suktam",
+    "title": "Aghamarshana Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/aghamarshana_suktam.json"
+  },
+  {
+    "id": "agni_suktam",
+    "title": "Agni Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/agni_suktam.json"
+  },
+  {
+    "id": "ahalya_draupadi_sita_tara",
+    "title": "Ahalya Draupadi Sita Tara",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ahalya_draupadi_sita_tara.json"
+  },
+  {
+    "id": "aham_vaishvanaro_bhuthva",
+    "title": "Aham Vaishvanaro Bhuthva",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/aham_vaishvanaro_bhuthva.json"
+  },
+  {
+    "id": "akasat_patitam_toyam",
+    "title": "Akasat Patitam Toyam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/akasat_patitam_toyam.json"
+  },
+  {
+    "id": "aksharamalika_shiva_stotram",
+    "title": "Aksharamalika Shiva Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/aksharamalika_shiva_stotram.json"
+  },
+  {
+    "id": "aksharamanamalai",
+    "title": "Aksharamanamalai",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/aksharamanamalai.json"
+  },
+  {
+    "id": "amba_stavam",
+    "title": "Amba Stavam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/amba_stavam.json"
+  },
+  {
+    "id": "ananda_lahari",
+    "title": "Ananda Lahari",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ananda_lahari.json"
+  },
+  {
+    "id": "anantam_vasukim_sesham",
+    "title": "Anantam Vasukim Sesham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/anantam_vasukim_sesham.json"
+  },
+  {
+    "id": "anayasena_maranam",
+    "title": "Anayasena Maranam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/anayasena_maranam.json"
+  },
+  {
+    "id": "angaraka_ashtottara_sata_nama_stotram",
+    "title": "Angaraka Ashtottara Sata Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/angaraka_ashtottara_sata_nama_stotram.json"
+  },
+  {
+    "id": "anjana_nandanam_viram",
+    "title": "Anjana Nandanam Viram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/anjana_nandanam_viram.json"
+  },
+  {
+    "id": "anjaneya_bhujanga_prayata_stotram",
+    "title": "Anjaneya Bhujanga Prayata Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/anjaneya_bhujanga_prayata_stotram.json"
+  },
+  {
+    "id": "anjaneya_dandakam",
+    "title": "Anjaneya Dandakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/anjaneya_dandakam.json"
+  },
+  {
+    "id": "anjaneya_dvadasha_nama_stotram",
+    "title": "Anjaneya Dvadasha Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/anjaneya_dvadasha_nama_stotram.json"
+  },
+  {
+    "id": "anjaneya_mati_patalananam",
+    "title": "Anjaneya Mati Patalananam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/anjaneya_mati_patalananam.json"
+  },
+  {
+    "id": "anjani_garbha_sambhuta",
+    "title": "Anjani Garbha Sambhuta",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/anjani_garbha_sambhuta.json"
+  },
+  {
+    "id": "annabrahma_rasovishnu",
+    "title": "Annabrahma Rasovishnu",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/annabrahma_rasovishnu.json"
+  },
+  {
+    "id": "annapurna_stotram",
+    "title": "Annapurna Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/annapurna_stotram.json"
+  },
+  {
+    "id": "annapurne_sadhapurne",
+    "title": "Annapurne Sadhapurne",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/annapurne_sadhapurne.json"
+  },
+  {
+    "id": "apaduddharaka_hanuman_stotram",
+    "title": "Apaduddharaka Hanuman Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/apaduddharaka_hanuman_stotram.json"
+  },
+  {
+    "id": "apah_suktam",
+    "title": "Apah Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/apah_suktam.json"
+  },
+  {
+    "id": "apavitra_pavitro",
+    "title": "Apavitra Pavitro",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/apavitra_pavitro.json"
+  },
+  {
+    "id": "apyayantu_mamangani",
+    "title": "Apyayantu Mamangani",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/apyayantu_mamangani.json"
+  },
+  {
+    "id": "ardha_narishvara_stotram",
+    "title": "Ardha Narishvara Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ardha_narishvara_stotram.json"
+  },
+  {
+    "id": "argala_stotram",
+    "title": "Argala Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/argala_stotram.json"
+  },
+  {
+    "id": "asathoma_sadhgamaya",
+    "title": "Asathoma Sadhgamaya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/asathoma_sadhgamaya.json"
+  },
+  {
+    "id": "ashta_lakshmi_stotram",
+    "title": "Ashta Lakshmi Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ashta_lakshmi_stotram.json"
+  },
+  {
+    "id": "asvatthama_balirvyaso_hanuman",
+    "title": "Asvatthama Balirvyaso Hanuman",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/asvatthama_balirvyaso_hanuman.json"
+  },
+  {
+    "id": "atulita_bala_dhamam",
+    "title": "Atulita Bala Dhamam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/atulita_bala_dhamam.json"
+  },
+  {
+    "id": "ayigiri_nandini",
+    "title": "Ayigiri Nandini",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ayigiri_nandini.json"
+  },
+  {
+    "id": "ayyappa_pancharatnam",
+    "title": "Ayyappa Pancharatnam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ayyappa_pancharatnam.json"
+  },
+  {
+    "id": "bali_vibhishano_bhishma",
+    "title": "Bali Vibhishano Bhishma",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/bali_vibhishano_bhishma.json"
+  },
+  {
+    "id": "bhadram_karne",
+    "title": "Bhadram Karne",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/bhadram_karne.json"
+  },
+  {
+    "id": "bhaja_govindam_all_verses",
+    "title": "Bhaja Govindam All Verses",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/bhaja_govindam_all_verses.json"
+  },
+  {
+    "id": "bhaja_govindam_ms",
+    "title": "Bhaja Govindam MS",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/bhaja_govindam_ms.json"
+  },
+  {
+    "id": "bhavani_ashtakam",
+    "title": "Bhavani Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/bhavani_ashtakam.json"
+  },
+  {
+    "id": "bhavani_bhujangam",
+    "title": "Bhavani Bhujangam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/bhavani_bhujangam.json"
+  },
+  {
+    "id": "bhoomi_suktam",
+    "title": "Bhoomi Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/bhoomi_suktam.json"
+  },
+  {
+    "id": "bhoothanath_ashtakam",
+    "title": "Bhoothanath Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/bhoothanath_ashtakam.json"
+  },
+  {
+    "id": "bhramarambika_ashtakam",
+    "title": "Bhramarambika Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/bhramarambika_ashtakam.json"
+  },
+  {
+    "id": "bhugurvashista_kraturam",
+    "title": "Bhugurvashista Kraturam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/bhugurvashista_kraturam.json"
+  },
+  {
+    "id": "bilvashtakam",
+    "title": "Bilvashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/bilvashtakam.json"
+  },
+  {
+    "id": "bilvashtakam_14_verses",
+    "title": "Bilvashtakam 14 Verses",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/bilvashtakam_14_verses.json"
+  },
+  {
+    "id": "brahma_murari_tripuranatakari",
+    "title": "Brahma Murari Tripuranatakari",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/brahma_murari_tripuranatakari.json"
+  },
+  {
+    "id": "brahmarpanam_brahma_havih",
+    "title": "Brahmarpanam Brahma Havih",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/brahmarpanam_brahma_havih.json"
+  },
+  {
+    "id": "bruhaspati_ashtottara_sata_nama_stotram",
+    "title": "Bruhaspati Ashtottara Sata Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/bruhaspati_ashtottara_sata_nama_stotram.json"
+  },
+  {
+    "id": "buddhirbalam_yashodhairyam",
+    "title": "Buddhirbalam Yashodhairyam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/buddhirbalam_yashodhairyam.json"
+  },
+  {
+    "id": "budha_ashtottara_sata_nama_stotram",
+    "title": "Budha Ashtottara Sata Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/budha_ashtottara_sata_nama_stotram.json"
+  },
+  {
+    "id": "budha_graha_pancharatna_stotram",
+    "title": "Budha Graha Pancharatna Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/budha_graha_pancharatna_stotram.json"
+  },
+  {
+    "id": "chandra_ashtottara_sata_nama_stotram",
+    "title": "Chandra Ashtottara Sata Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/chandra_ashtottara_sata_nama_stotram.json"
+  },
+  {
+    "id": "chandra_graha_pancharatna_stotram",
+    "title": "Chandra Graha Pancharatna Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/chandra_graha_pancharatna_stotram.json"
+  },
+  {
+    "id": "chandra_kavacham",
+    "title": "Chandra Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/chandra_kavacham.json"
+  },
+  {
+    "id": "chandrashekhara_ashtakam",
+    "title": "Chandrashekhara Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/chandrashekhara_ashtakam.json"
+  },
+  {
+    "id": "charcha_stavam",
+    "title": "Charcha Stavam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/charcha_stavam.json"
+  },
+  {
+    "id": "dakshinamurthy_stotram",
+    "title": "Dakshinamurthy Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/dakshinamurthy_stotram.json"
+  },
+  {
+    "id": "daridrya_dahana_shiva_stotram",
+    "title": "Daridrya Dahana Shiva Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/daridrya_dahana_shiva_stotram.json"
+  },
+  {
+    "id": "devi_aparadha_kshamapana_stotram",
+    "title": "Devi Aparadha Kshamapana Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/devi_aparadha_kshamapana_stotram.json"
+  },
+  {
+    "id": "devi_aparajita_stotram",
+    "title": "Devi Aparajita Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/devi_aparajita_stotram.json"
+  },
+  {
+    "id": "devi_bhujanga_stotram",
+    "title": "Devi Bhujanga Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/devi_bhujanga_stotram.json"
+  },
+  {
+    "id": "devi_kavacham",
+    "title": "Devi Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/devi_kavacham.json"
+  },
+  {
+    "id": "dhanvanthari_mantra",
+    "title": "Dhanvanthari Mantra",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/dhanvanthari_mantra.json"
+  },
+  {
+    "id": "dharmo_vivardhati_yudhishtira",
+    "title": "Dharmo Vivardhati Yudhishtira",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/dharmo_vivardhati_yudhishtira.json"
+  },
+  {
+    "id": "durga_chalisa",
+    "title": "Durga Chalisa",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/durga_chalisa.json"
+  },
+  {
+    "id": "durga_devi_kavacham",
+    "title": "Durga Devi Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/durga_devi_kavacham.json"
+  },
+  {
+    "id": "durga_suktam",
+    "title": "Durga Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/durga_suktam.json"
+  },
+  {
+    "id": "dwadasa_arya_stuti",
+    "title": "Dwadasa Arya Stuti",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/dwadasa_arya_stuti.json"
+  },
+  {
+    "id": "dwadasa_jyotirlinga_stotram",
+    "title": "Dwadasa Jyotirlinga Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/dwadasa_jyotirlinga_stotram.json"
+  },
+  {
+    "id": "dwadasha_aditya_dhyana_slokas",
+    "title": "Dwadasha Aditya Dhyana Slokas",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/dwadasha_aditya_dhyana_slokas.json"
+  },
+  {
+    "id": "dyauh_shaantir_antarikssam",
+    "title": "Dyauh Shaantir Antarikssam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/dyauh_shaantir_antarikssam.json"
+  },
+  {
+    "id": "ekadasha_mukhi_hanuman_kavacham",
+    "title": "Ekadasha Mukhi Hanuman Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ekadasha_mukhi_hanuman_kavacham.json"
+  },
+  {
+    "id": "ekashloki",
+    "title": "Ekashloki",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ekashloki.json"
+  },
+  {
+    "id": "ekatmata_stotram",
+    "title": "Ekatmata Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ekatmata_stotram.json"
+  },
+  {
+    "id": "gajananam_bhuthaganadhi",
+    "title": "Gajananam Bhuthaganadhi",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/gajananam_bhuthaganadhi.json"
+  },
+  {
+    "id": "gananamtva_ganapatim",
+    "title": "Gananamtva Ganapatim",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/gananamtva_ganapatim.json"
+  },
+  {
+    "id": "ganapathi_atharvashirsha",
+    "title": "Ganapathi Atharvashirsha",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ganapathi_atharvashirsha.json"
+  },
+  {
+    "id": "ganapati_prarthana_ghanapatham",
+    "title": "Ganapati Prarthana Ghanapatham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ganapati_prarthana_ghanapatham.json"
+  },
+  {
+    "id": "ganapati_stotram",
+    "title": "Ganapati Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ganapati_stotram.json"
+  },
+  {
+    "id": "ganesha_gayatri_mantra",
+    "title": "Ganesha Gayatri Mantra",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ganesha_gayatri_mantra.json"
+  },
+  {
     "id": "ganesha_pancharathnam",
     "title": "Ganesha Pancharathnam",
     "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ganesha_pancharathnam.json"
+  },
+  {
+    "id": "ganesha_stavah",
+    "title": "Ganesha Stavah",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ganesha_stavah.json"
+  },
+  {
+    "id": "ganga_ashtakam",
+    "title": "Ganga Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ganga_ashtakam.json"
+  },
+  {
+    "id": "ganga_sindu_saraswati",
+    "title": "Ganga Sindu Saraswati",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ganga_sindu_saraswati.json"
+  },
+  {
+    "id": "ganga_stotram",
+    "title": "Ganga stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ganga_stotram.json"
+  },
+  {
+    "id": "gange_cha_yamune",
+    "title": "Gange Cha Yamune",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/gange_cha_yamune.json"
+  },
+  {
+    "id": "gauri_dasakam",
+    "title": "Gauri Dasakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/gauri_dasakam.json"
   },
   {
     "id": "gayatri_mantra",
@@ -10,9 +485,199 @@
     "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/gayatri_mantra.json"
   },
   {
+    "id": "gayatri_mantram_ghanapatham",
+    "title": "Gayatri Mantram Ghanapatham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/gayatri_mantram_ghanapatham.json"
+  },
+  {
+    "id": "ghata_stavam",
+    "title": "Ghata Stavam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ghata_stavam.json"
+  },
+  {
+    "id": "gita_dhyanam",
+    "title": "Gita Dhyanam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/gita_dhyanam.json"
+  },
+  {
+    "id": "goda_devi_ashtottara_sata_nama_stotram",
+    "title": "Goda Devi Ashtottara Sata Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/goda_devi_ashtottara_sata_nama_stotram.json"
+  },
+  {
+    "id": "govinda_naamaavali",
+    "title": "Govinda Naamaavali",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/govinda_naamaavali.json"
+  },
+  {
+    "id": "govindeti_sada_snanam",
+    "title": "Govindeti Sada Snanam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/govindeti_sada_snanam.json"
+  },
+  {
+    "id": "guru_ashtakam",
+    "title": "Guru Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/guru_ashtakam.json"
+  },
+  {
+    "id": "guru_brahma_guru_vishnu",
+    "title": "Guru Brahma Guru Vishnu",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/guru_brahma_guru_vishnu.json"
+  },
+  {
+    "id": "guru_graha_pancharatna_stotram",
+    "title": "Guru Graha Pancharatna Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/guru_graha_pancharatna_stotram.json"
+  },
+  {
+    "id": "guru_paduka_stotram",
+    "title": "Guru Paduka Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/guru_paduka_stotram.json"
+  },
+  {
+    "id": "guru_stotram",
+    "title": "Guru Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/guru_stotram.json"
+  },
+  {
+    "id": "hanuman_ashtakam",
+    "title": "Hanuman Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/hanuman_ashtakam.json"
+  },
+  {
+    "id": "hanuman_ashtottara_sata_naama_stotram",
+    "title": "Hanuman Ashtottara Sata Naama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/hanuman_ashtottara_sata_naama_stotram.json"
+  },
+  {
+    "id": "hanuman_ashtottara_sata_namavali",
+    "title": "Hanuman Ashtottara Sata Namavali",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/hanuman_ashtottara_sata_namavali.json"
+  },
+  {
+    "id": "hanuman_bajrang_baan",
+    "title": "Hanuman Bajrang Baan",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/hanuman_bajrang_baan.json"
+  },
+  {
     "id": "hanuman_chalisa",
     "title": "Hanuman Chalisa",
     "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/hanuman_chalisa.json"
+  },
+  {
+    "id": "hanuman_kavacham",
+    "title": "Hanuman Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/hanuman_kavacham.json"
+  },
+  {
+    "id": "hanuman_mala_mantram",
+    "title": "Hanuman Mala Mantram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/hanuman_mala_mantram.json"
+  },
+  {
+    "id": "hanuman_mangalashtakam",
+    "title": "Hanuman Mangalashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/hanuman_mangalashtakam.json"
+  },
+  {
+    "id": "hanuman_pancharatnam",
+    "title": "Hanuman Pancharatnam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/hanuman_pancharatnam.json"
+  },
+  {
+    "id": "hanuman_suprabhatam",
+    "title": "Hanuman Suprabhatam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/hanuman_suprabhatam.json"
+  },
+  {
+    "id": "hare_murare_madhu_kaita",
+    "title": "Hare Murare Madhu Kaita",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/hare_murare_madhu_kaita.json"
+  },
+  {
+    "id": "harim_haram_harishchandram",
+    "title": "Harim Haram Harishchandram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/harim_haram_harishchandram.json"
+  },
+  {
+    "id": "ishvaro_guru_atmeti",
+    "title": "Ishvaro Guru Atmeti",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ishvaro_guru_atmeti.json"
+  },
+  {
+    "id": "jagannath_ashtakam",
+    "title": "Jagannath Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/jagannath_ashtakam.json"
+  },
+  {
+    "id": "janaki_stuti",
+    "title": "Janaki Stuti",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/janaki_stuti.json"
+  },
+  {
+    "id": "kalabhairava_ashtakam",
+    "title": "Kalabhairava Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kalabhairava_ashtakam.json"
+  },
+  {
+    "id": "kale_varshatu_parjanyah",
+    "title": "Kale Varshatu Parjanyah",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kale_varshatu_parjanyah.json"
+  },
+  {
+    "id": "kalika_ashtakam",
+    "title": "Kalika Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kalika_ashtakam.json"
+  },
+  {
+    "id": "kalyana_adbhuta_gatraya",
+    "title": "Kalyana Adbhuta Gatraya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kalyana_adbhuta_gatraya.json"
+  },
+  {
+    "id": "kalyana_vrishti_stavam",
+    "title": "Kalyana Vrishti Stavam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kalyana_vrishti_stavam.json"
+  },
+  {
+    "id": "kamakshi_stotram",
+    "title": "Kamakshi Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kamakshi_stotram.json"
+  },
+  {
+    "id": "kanda_sashti_kavacham",
+    "title": "Kanda Sashti Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kanda_sashti_kavacham.json"
+  },
+  {
+    "id": "kapilam_darpanam",
+    "title": "Kapilam Darpanam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kapilam_darpanam.json"
+  },
+  {
+    "id": "kapilam_kamadhenum_ca",
+    "title": "Kapilam Kamadhenum Ca",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kapilam_kamadhenum_ca.json"
+  },
+  {
+    "id": "karaagre_vasathe",
+    "title": "Karaagre Vasathe",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/karaagre_vasathe.json"
+  },
+  {
+    "id": "karacharana_kritham",
+    "title": "Karacharana Kritham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/karacharana_kritham.json"
+  },
+  {
+    "id": "kararavindena_padaravindam",
+    "title": "Kararavindena Padaravindam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kararavindena_padaravindam.json"
+  },
+  {
+    "id": "karkotakasya_nagasya",
+    "title": "Karkotakasya Nagasya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/karkotakasya_nagasya.json"
   },
   {
     "id": "karpura_gauram",
@@ -20,9 +685,329 @@
     "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/karpura_gauram.json"
   },
   {
+    "id": "kartikeya_pragna_vivardhana_stotram",
+    "title": "Kartikeya Pragna Vivardhana Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kartikeya_pragna_vivardhana_stotram.json"
+  },
+  {
+    "id": "kartikeya_pragya_vivardhana_stotram",
+    "title": "Kartikeya Pragya Vivardhana Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kartikeya_pragya_vivardhana_stotram.json"
+  },
+  {
+    "id": "kashi_panchakam",
+    "title": "Kashi Panchakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kashi_panchakam.json"
+  },
+  {
+    "id": "kashyapa_atri_bharadwaja",
+    "title": "Kashyapa Atri Bharadwaja",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kashyapa_atri_bharadwaja.json"
+  },
+  {
+    "id": "kasi_viswanathashtakam",
+    "title": "Kasi Viswanathashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kasi_viswanathashtakam.json"
+  },
+  {
+    "id": "kasturi_tilakam_lalaata",
+    "title": "Kasturi Tilakam Lalaata",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kasturi_tilakam_lalaata.json"
+  },
+  {
+    "id": "kausalya_supraja",
+    "title": "Kausalya Supraja",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kausalya_supraja.json"
+  },
+  {
+    "id": "kayena_vacha",
+    "title": "Kayena Vacha",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kayena_vacha.json"
+  },
+  {
+    "id": "keelaka_stotram",
+    "title": "Keelaka Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/keelaka_stotram.json"
+  },
+  {
+    "id": "ketu_ashtottara_sata_nama_stotram",
+    "title": "Ketu Ashtottara Sata Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ketu_ashtottara_sata_nama_stotram.json"
+  },
+  {
+    "id": "ketu_graha_pancharatna_stotram",
+    "title": "Ketu Graha Pancharatna Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ketu_graha_pancharatna_stotram.json"
+  },
+  {
+    "id": "konastha_pingalo_bhabru",
+    "title": "Konastha Pingalo Bhabru",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/konastha_pingalo_bhabru.json"
+  },
+  {
+    "id": "krishnashtakam",
+    "title": "Krishnashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/krishnashtakam.json"
+  },
+  {
+    "id": "krishnaya_vasudevaya_devaki",
+    "title": "Krishnaya Vasudevaya Devaki",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/krishnaya_vasudevaya_devaki.json"
+  },
+  {
+    "id": "krishnaya_vasudevaya_haraye",
+    "title": "Krishnaya Vasudevaya Haraye",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/krishnaya_vasudevaya_haraye.json"
+  },
+  {
+    "id": "kshetrapati_suktam",
+    "title": "Kshetrapati Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kshetrapati_suktam.json"
+  },
+  {
+    "id": "kuja_graha_pancharatna_stotram",
+    "title": "Kuja Graha Pancharatna Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/kuja_graha_pancharatna_stotram.json"
+  },
+  {
+    "id": "laghu_stavam",
+    "title": "Laghu Stavam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/laghu_stavam.json"
+  },
+  {
+    "id": "lakshmi_devi_kanakaruchiram",
+    "title": "Lakshmi Devi Kanakaruchiram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/lakshmi_devi_kanakaruchiram.json"
+  },
+  {
+    "id": "lakshmi_narasimha_karavalambam",
+    "title": "Lakshmi Narasimha Karavalambam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/lakshmi_narasimha_karavalambam.json"
+  },
+  {
+    "id": "lalitha_panchakam",
+    "title": "Lalitha Panchakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/lalitha_panchakam.json"
+  },
+  {
+    "id": "lalitha_sahasranamam",
+    "title": "Lalitha Sahasranamam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/lalitha_sahasranamam.json"
+  },
+  {
     "id": "lingashtakam",
     "title": "Lingashtakam",
     "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/lingashtakam.json"
+  },
+  {
+    "id": "lokabhi_ramam",
+    "title": "Lokabhi Ramam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/lokabhi_ramam.json"
+  },
+  {
+    "id": "maatha_ramo",
+    "title": "Maatha Ramo",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/maatha_ramo.json"
+  },
+  {
+    "id": "madhurashtakam",
+    "title": "Madhurashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/madhurashtakam.json"
+  },
+  {
+    "id": "mahalakshmi_ashtakam",
+    "title": "Mahalakshmi Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/mahalakshmi_ashtakam.json"
+  },
+  {
+    "id": "mangalam_bhagavan_vishnu",
+    "title": "Mangalam Bhagavan Vishnu",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/mangalam_bhagavan_vishnu.json"
+  },
+  {
+    "id": "mangalam_kosalendraya",
+    "title": "Mangalam Kosalendraya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/mangalam_kosalendraya.json"
+  },
+  {
+    "id": "manojavam_maruthathulyavegam",
+    "title": "Manojavam Maruthathulyavegam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/manojavam_maruthathulyavegam.json"
+  },
+  {
+    "id": "mantra_pushpam",
+    "title": "Mantra Pushpam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/mantra_pushpam.json"
+  },
+  {
+    "id": "margabandhu_stotram",
+    "title": "Margabandhu Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/margabandhu_stotram.json"
+  },
+  {
+    "id": "mauna_vyakhya",
+    "title": "Mauna Vyakhya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/mauna_vyakhya.json"
+  },
+  {
+    "id": "medha_suktam",
+    "title": "Medha Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/medha_suktam.json"
+  },
+  {
+    "id": "meenakshi_pancharatnam",
+    "title": "Meenakshi Pancharatnam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/meenakshi_pancharatnam.json"
+  },
+  {
+    "id": "megha_syamam",
+    "title": "Megha Syamam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/megha_syamam.json"
+  },
+  {
+    "id": "mooshika_vahana",
+    "title": "Mooshika Vahana",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/mooshika_vahana.json"
+  },
+  {
+    "id": "mruthyunjayaya_rudraya",
+    "title": "Mruthyunjayaya Rudraya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/mruthyunjayaya_rudraya.json"
+  },
+  {
+    "id": "mukam_karoti_vachalam",
+    "title": "Mukam Karoti Vachalam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/mukam_karoti_vachalam.json"
+  },
+  {
+    "id": "mulato_brahmarupaya",
+    "title": "Mulato Brahmarupaya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/mulato_brahmarupaya.json"
+  },
+  {
+    "id": "mule_brahma_tvaci_vishnu",
+    "title": "Mule Brahma Tvaci Vishnu",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/mule_brahma_tvaci_vishnu.json"
+  },
+  {
+    "id": "na_karmana_na_prajaya",
+    "title": "Na Karmana Na Prajaya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/na_karmana_na_prajaya.json"
+  },
+  {
+    "id": "na_thathra_suryo_bhathi",
+    "title": "Na Thathra Suryo Bhathi",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/na_thathra_suryo_bhathi.json"
+  },
+  {
+    "id": "nama_ramayanam",
+    "title": "Nama Ramayanam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/nama_ramayanam.json"
+  },
+  {
+    "id": "namah_kamala_netraya",
+    "title": "Namah Kamala Netraya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/namah_kamala_netraya.json"
+  },
+  {
+    "id": "namah_savitre_jagadeka",
+    "title": "Namah Savitre Jagadeka",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/namah_savitre_jagadeka.json"
+  },
+  {
+    "id": "namami_narayana_pada",
+    "title": "Namami Narayana Pada",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/namami_narayana_pada.json"
+  },
+  {
+    "id": "namaste_sharada_devi",
+    "title": "Namaste Sharada Devi",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/namaste_sharada_devi.json"
+  },
+  {
+    "id": "namasthe_asthu_bhagavan",
+    "title": "Namasthe asthu Bhagavan",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/namasthe_asthu_bhagavan.json"
+  },
+  {
+    "id": "namo_brahmanya_devaya",
+    "title": "Namo Brahmanya Devaya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/namo_brahmanya_devaya.json"
+  },
+  {
+    "id": "namostu_ramaya_sa",
+    "title": "Namostu Ramaya Sa",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/namostu_ramaya_sa.json"
+  },
+  {
+    "id": "nandakumar_ashtakam",
+    "title": "Nandakumar Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/nandakumar_ashtakam.json"
+  },
+  {
+    "id": "narayana_kavacham",
+    "title": "Narayana Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/narayana_kavacham.json"
+  },
+  {
+    "id": "narayana_suktam",
+    "title": "Narayana Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/narayana_suktam.json"
+  },
+  {
+    "id": "narayanam_hrishikesam",
+    "title": "Narayanam Hrishikesam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/narayanam_hrishikesam.json"
+  },
+  {
+    "id": "narayaneti_vagvalvi",
+    "title": "Narayaneti Vagvalvi",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/narayaneti_vagvalvi.json"
+  },
+  {
+    "id": "nataraja_stotram",
+    "title": "Nataraja Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/nataraja_stotram.json"
+  },
+  {
+    "id": "nava_graha_kavacham",
+    "title": "Nava Graha Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/nava_graha_kavacham.json"
+  },
+  {
+    "id": "nava_graha_peedahara_stotram",
+    "title": "Nava Graha Peedahara Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/nava_graha_peedahara_stotram.json"
+  },
+  {
+    "id": "nava_graha_stotram",
+    "title": "Nava Graha Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/nava_graha_stotram.json"
+  },
+  {
+    "id": "navadurga_stotram",
+    "title": "Navadurga Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/navadurga_stotram.json"
+  },
+  {
+    "id": "navagraha_mangalashtakam",
+    "title": "Navagraha Mangalashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/navagraha_mangalashtakam.json"
+  },
+  {
+    "id": "navagraha_suktam",
+    "title": "Navagraha Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/navagraha_suktam.json"
+  },
+  {
+    "id": "nidhaye_sarvavidyanam",
+    "title": "Nidhaye Sarvavidyanam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/nidhaye_sarvavidyanam.json"
+  },
+  {
+    "id": "nirguna_manasa_puja",
+    "title": "Nirguna Manasa Puja",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/nirguna_manasa_puja.json"
   },
   {
     "id": "nirvana_shatakam",
@@ -30,8 +1015,1028 @@
     "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/nirvana_shatakam.json"
   },
   {
+    "id": "om",
+    "title": "Om",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/om.json"
+  },
+  {
+    "id": "om_namah_pranavarthaya",
+    "title": "Om Namah Pranavarthaya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/om_namah_pranavarthaya.json"
+  },
+  {
+    "id": "om_namo_bhagavate_vasudevaya",
+    "title": "Om Namo Bhagavate Vasudevaya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/om_namo_bhagavate_vasudevaya.json"
+  },
+  {
+    "id": "omkaram_bindu_samyuktham",
+    "title": "Omkaram Bindu Samyuktham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/omkaram_bindu_samyuktham.json"
+  },
+  {
+    "id": "padmapatra_visalakshi",
+    "title": "Padmapatra Visalakshi",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/padmapatra_visalakshi.json"
+  },
+  {
+    "id": "padmavathi_stotram",
+    "title": "Padmavathi Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/padmavathi_stotram.json"
+  },
+  {
+    "id": "paluke_bangaramayena",
+    "title": "Paluke Bangaramayena",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/paluke_bangaramayena.json"
+  },
+  {
+    "id": "panchamukha_hanumath_kavacham",
+    "title": "Panchamukha Hanumath Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/panchamukha_hanumath_kavacham.json"
+  },
+  {
+    "id": "pandurang_ashtakam",
+    "title": "Pandurang Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/pandurang_ashtakam.json"
+  },
+  {
+    "id": "parvati_vallabha_ashtakam",
+    "title": "Parvati Vallabha Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/parvati_vallabha_ashtakam.json"
+  },
+  {
+    "id": "pashupati_ashtakam",
+    "title": "Pashupati Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/pashupati_ashtakam.json"
+  },
+  {
+    "id": "prahlada_narada",
+    "title": "Prahlada Narada",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/prahlada_narada.json"
+  },
+  {
+    "id": "pratah_smaranam",
+    "title": "Pratah Smaranam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/pratah_smaranam.json"
+  },
+  {
+    "id": "prithvi_sagandha_sarasa",
+    "title": "Prithvi Sagandha Sarasa",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/prithvi_sagandha_sarasa.json"
+  },
+  {
+    "id": "prthvi_tvaya_dhrita_loka",
+    "title": "Prthvi Tvaya Dhrita Loka",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/prthvi_tvaya_dhrita_loka.json"
+  },
+  {
+    "id": "punya_shloko_nalo_raja",
+    "title": "Punya Shloko Nalo raja",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/punya_shloko_nalo_raja.json"
+  },
+  {
+    "id": "purna_kumbha_mantra",
+    "title": "Purna Kumbha Mantra",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/purna_kumbha_mantra.json"
+  },
+  {
+    "id": "purnamadhah_purnamidham",
+    "title": "Purnamadhah Purnamidham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/purnamadhah_purnamidham.json"
+  },
+  {
+    "id": "purusha_suktam",
+    "title": "Purusha Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/purusha_suktam.json"
+  },
+  {
+    "id": "rahu_ashtottara_sata_nama_stotram",
+    "title": "Rahu Ashtottara Sata Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/rahu_ashtottara_sata_nama_stotram.json"
+  },
+  {
+    "id": "rahu_graha_pancharatna_stotram",
+    "title": "Rahu Graha Pancharatna Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/rahu_graha_pancharatna_stotram.json"
+  },
+  {
+    "id": "rajadhi_rajaya_prasahya",
+    "title": "Rajadhi Rajaya Prasahya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/rajadhi_rajaya_prasahya.json"
+  },
+  {
+    "id": "ramachandra_shrita_parijatha",
+    "title": "Ramachandra Shrita Parijatha",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ramachandra_shrita_parijatha.json"
+  },
+  {
+    "id": "ramachandraya_janaka_mangalam",
+    "title": "Ramachandraya Janaka Mangalam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ramachandraya_janaka_mangalam.json"
+  },
+  {
+    "id": "ramadevam_raghukulapatim",
+    "title": "Ramadevam Raghukulapatim",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ramadevam_raghukulapatim.json"
+  },
+  {
+    "id": "ramaskandham_hanumantham",
+    "title": "Ramaskandham Hanumantham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ramaskandham_hanumantham.json"
+  },
+  {
+    "id": "ramaya_ramabhadraya",
+    "title": "Ramaya Ramabhadraya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ramaya_ramabhadraya.json"
+  },
+  {
+    "id": "ramo_rajamani",
+    "title": "Ramo Rajamani",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ramo_rajamani.json"
+  },
+  {
+    "id": "ranganatha_ashtakam",
+    "title": "Ranganatha Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ranganatha_ashtakam.json"
+  },
+  {
+    "id": "ravi_graha_pancharatna_stotram",
+    "title": "Ravi Graha Pancharatna Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/ravi_graha_pancharatna_stotram.json"
+  },
+  {
+    "id": "rudraashtakam",
+    "title": "RudraAshtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/rudraashtakam.json"
+  },
+  {
+    "id": "rudram_chamakam",
+    "title": "Rudram Chamakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/rudram_chamakam.json"
+  },
+  {
+    "id": "rudram_chamakam_line_by_line",
+    "title": "Rudram Chamakam (Line by Line)",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/rudram_chamakam_line_by_line.json"
+  },
+  {
+    "id": "rudram_namakam_line_by_line",
+    "title": "Rudram Namakam (Line by Line)",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/rudram_namakam_line_by_line.json"
+  },
+  {
+    "id": "runa_vimochana_angaraka_stotram",
+    "title": "Runa Vimochana Angaraka Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/runa_vimochana_angaraka_stotram.json"
+  },
+  {
+    "id": "runa_vimochana_narasimha_stotram",
+    "title": "Runa Vimochana Narasimha Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/runa_vimochana_narasimha_stotram.json"
+  },
+  {
+    "id": "sada_shiva_samarambam",
+    "title": "Sada Shiva Samarambam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sada_shiva_samarambam.json"
+  },
+  {
+    "id": "sadhunam_darsanam",
+    "title": "Sadhunam Darsanam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sadhunam_darsanam.json"
+  },
+  {
+    "id": "sahana_vavathu",
+    "title": "Sahana Vavathu",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sahana_vavathu.json"
+  },
+  {
+    "id": "sakala_janani_stavam",
+    "title": "Sakala Janani Stavam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sakala_janani_stavam.json"
+  },
+  {
+    "id": "samasta_jana_kalyane",
+    "title": "Samasta Jana Kalyane",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/samasta_jana_kalyane.json"
+  },
+  {
+    "id": "samudravasane_devi",
+    "title": "Samudravasane Devi",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/samudravasane_devi.json"
+  },
+  {
+    "id": "sanata_kumara_sanaka",
+    "title": "Sanata Kumara Sanaka",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sanata_kumara_sanaka.json"
+  },
+  {
+    "id": "sani_ashtottara_sata_nama_stotram",
+    "title": "Sani Ashtottara Sata Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sani_ashtottara_sata_nama_stotram.json"
+  },
+  {
+    "id": "sani_graha_pancharatna_stotram",
+    "title": "Sani Graha Pancharatna Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sani_graha_pancharatna_stotram.json"
+  },
+  {
+    "id": "sankaram_sankaracharyam",
+    "title": "Sankaram Sankaracharyam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sankaram_sankaracharyam.json"
+  },
+  {
+    "id": "sankata_mochana_hanuman_ashtakam",
+    "title": "Sankata Mochana Hanuman Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sankata_mochana_hanuman_ashtakam.json"
+  },
+  {
+    "id": "sankata_nashana_ganesha_stotram",
+    "title": "Sankata Nashana Ganesha Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sankata_nashana_ganesha_stotram.json"
+  },
+  {
+    "id": "sanyasa_suktam",
+    "title": "Sanyasa Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sanyasa_suktam.json"
+  },
+  {
+    "id": "saptarnava_sapta_kulachalasca",
+    "title": "Saptarnava Sapta Kulachalasca",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/saptarnava_sapta_kulachalasca.json"
+  },
+  {
+    "id": "sarasvati_kavacham",
+    "title": "Sarasvati Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sarasvati_kavacham.json"
+  },
+  {
+    "id": "sarasvati_namasthubyam",
+    "title": "Sarasvati Namasthubyam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sarasvati_namasthubyam.json"
+  },
+  {
+    "id": "sarasvati_sahasra_nama_stotram",
+    "title": "Sarasvati Sahasra Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sarasvati_sahasra_nama_stotram.json"
+  },
+  {
+    "id": "saraswati_ashtottara_sata_nama_stotram",
+    "title": "Saraswati Ashtottara Sata Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/saraswati_ashtottara_sata_nama_stotram.json"
+  },
+  {
+    "id": "saraswati_dwadasa_nama_stotram",
+    "title": "Saraswati Dwadasa Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/saraswati_dwadasa_nama_stotram.json"
+  },
+  {
+    "id": "saraswati_mahabhage",
+    "title": "Saraswati Mahabhage",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/saraswati_mahabhage.json"
+  },
+  {
+    "id": "saraswati_stavam",
+    "title": "Saraswati Stavam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/saraswati_stavam.json"
+  },
+  {
+    "id": "sarva_kaama_dudhe_devi",
+    "title": "Sarva Kaama-dudhe Devi",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sarva_kaama_dudhe_devi.json"
+  },
+  {
+    "id": "sarva_mangala_mangalye",
+    "title": "Sarva Mangala Mangalye",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sarva_mangala_mangalye.json"
+  },
+  {
+    "id": "sarve_bhavanthu_sukhinah",
+    "title": "Sarve Bhavanthu Sukhinah",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sarve_bhavanthu_sukhinah.json"
+  },
+  {
+    "id": "sarve_veda_yatpadam",
+    "title": "Sarve Veda Yatpadam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sarve_veda_yatpadam.json"
+  },
+  {
+    "id": "sarvesham_svasthirbhavathu",
+    "title": "Sarvesham Svasthirbhavathu",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sarvesham_svasthirbhavathu.json"
+  },
+  {
+    "id": "sashanka_chakram_sakirita",
+    "title": "Sashanka Chakram Sakirita",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sashanka_chakram_sakirita.json"
+  },
+  {
+    "id": "sata_rudreeyam",
+    "title": "Sata Rudreeyam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sata_rudreeyam.json"
+  },
+  {
+    "id": "shakradaya_stuti",
+    "title": "Shakradaya Stuti",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shakradaya_stuti.json"
+  },
+  {
+    "id": "sham_no_mithrah_sham",
+    "title": "Sham No Mithrah Sham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sham_no_mithrah_sham.json"
+  },
+  {
+    "id": "shambu_devam_sakalajagatam",
+    "title": "Shambu Devam Sakalajagatam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shambu_devam_sakalajagatam.json"
+  },
+  {
+    "id": "shambu_stuti",
+    "title": "Shambu Stuti",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shambu_stuti.json"
+  },
+  {
+    "id": "shani_aarati",
+    "title": "Shani Aarati",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shani_aarati.json"
+  },
+  {
+    "id": "shani_chalisa",
+    "title": "Shani Chalisa",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shani_chalisa.json"
+  },
+  {
+    "id": "shani_stotram_dasaratha_krutam",
+    "title": "Shani Stotram Dasaratha Krutam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shani_stotram_dasaratha_krutam.json"
+  },
+  {
+    "id": "shani_vajrapanjara_kavacham",
+    "title": "Shani Vajrapanjara Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shani_vajrapanjara_kavacham.json"
+  },
+  {
+    "id": "shanthakaram_bhujagashayanam",
+    "title": "Shanthakaram Bhujagashayanam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shanthakaram_bhujagashayanam.json"
+  },
+  {
+    "id": "sharabhesha_ashtakam",
+    "title": "Sharabhesha Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sharabhesha_ashtakam.json"
+  },
+  {
+    "id": "sharada_bhujanga_prayata_ashtakam",
+    "title": "Sharada Bhujanga Prayata Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sharada_bhujanga_prayata_ashtakam.json"
+  },
+  {
+    "id": "sharada_bhujangam",
+    "title": "Sharada Bhujangam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sharada_bhujangam.json"
+  },
+  {
+    "id": "sharada_sharadam_bhoja",
+    "title": "Sharada Sharadam Bhoja",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sharada_sharadam_bhoja.json"
+  },
+  {
+    "id": "sharada_stotram",
+    "title": "Sharada Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sharada_stotram.json"
+  },
+  {
+    "id": "sharanagatha_dhinartha",
+    "title": "Sharanagatha Dhinartha",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sharanagatha_dhinartha.json"
+  },
+  {
+    "id": "shiva_aparadha_kshamapana_stotram",
+    "title": "Shiva Aparadha Kshamapana Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_aparadha_kshamapana_stotram.json"
+  },
+  {
+    "id": "shiva_ashtakam",
+    "title": "Shiva Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_ashtakam.json"
+  },
+  {
+    "id": "shiva_ashtottara_sata_nama_stotram",
+    "title": "Shiva Ashtottara Sata Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_ashtottara_sata_nama_stotram.json"
+  },
+  {
+    "id": "shiva_bhujanga_prayata_stotram",
+    "title": "Shiva Bhujanga Prayata Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_bhujanga_prayata_stotram.json"
+  },
+  {
+    "id": "shiva_keshadi_padanta_varnana_stotram",
+    "title": "Shiva Keshadi Padanta Varnana Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_keshadi_padanta_varnana_stotram.json"
+  },
+  {
+    "id": "shiva_mahimna_stotram",
+    "title": "Shiva Mahimna Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_mahimna_stotram.json"
+  },
+  {
+    "id": "shiva_manasa_puja",
+    "title": "Shiva Manasa Puja",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_manasa_puja.json"
+  },
+  {
+    "id": "shiva_mangalashtakam",
+    "title": "Shiva Mangalashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_mangalashtakam.json"
+  },
+  {
+    "id": "shiva_padadi_keshanta_varnana_stotram",
+    "title": "Shiva Padadi Keshanta Varnana Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_padadi_keshanta_varnana_stotram.json"
+  },
+  {
+    "id": "shiva_panchakshara_stotram",
+    "title": "Shiva Panchakshara Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_panchakshara_stotram.json"
+  },
+  {
+    "id": "shiva_pratah_smaranam",
+    "title": "Shiva Pratah Smaranam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_pratah_smaranam.json"
+  },
+  {
+    "id": "shiva_sahasranama_stotram",
+    "title": "Shiva Sahasranama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_sahasranama_stotram.json"
+  },
+  {
+    "id": "shiva_shadakshara_stotram",
+    "title": "Shiva Shadakshara Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_shadakshara_stotram.json"
+  },
+  {
+    "id": "shiva_shadakshari_stotram",
+    "title": "Shiva Shadakshari Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_shadakshari_stotram.json"
+  },
+  {
     "id": "shiva_tandava_stotram",
     "title": "Shiva Tandava Stotram",
     "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shiva_tandava_stotram.json"
+  },
+  {
+    "id": "shubham_karothi_kalyanam",
+    "title": "Shubham Karothi Kalyanam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shubham_karothi_kalyanam.json"
+  },
+  {
+    "id": "shuklam_brahma_vicara_sara",
+    "title": "Shuklam Brahma Vicara Sara",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shuklam_brahma_vicara_sara.json"
+  },
+  {
+    "id": "shuklambaradharam",
+    "title": "Shuklambaradharam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shuklambaradharam.json"
+  },
+  {
+    "id": "shukra_kavacham",
+    "title": "Shukra Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/shukra_kavacham.json"
+  },
+  {
+    "id": "somanatha_vaidyanatha",
+    "title": "Somanatha Vaidyanatha",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/somanatha_vaidyanatha.json"
+  },
+  {
+    "id": "soundarya_lahari",
+    "title": "Soundarya Lahari",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/soundarya_lahari.json"
+  },
+  {
+    "id": "sri_aadya_kali_stotram",
+    "title": "Sri Aadya Kali Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_aadya_kali_stotram.json"
+  },
+  {
+    "id": "sri_ahobala_narasimha_stotram",
+    "title": "Sri Ahobala Narasimha Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_ahobala_narasimha_stotram.json"
+  },
+  {
+    "id": "sri_anjaneya_navaratna_mala_stotram",
+    "title": "Sri Anjaneya Navaratna Mala Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_anjaneya_navaratna_mala_stotram.json"
+  },
+  {
+    "id": "sri_bhadrakali_ashtottara_sata_namavali",
+    "title": "Sri Bhadrakali Ashtottara Sata Namavali",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_bhadrakali_ashtottara_sata_namavali.json"
+  },
+  {
+    "id": "sri_bhadrakali_ashtottara_satanama_stotram",
+    "title": "Sri Bhadrakali Ashtottara Satanama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_bhadrakali_ashtottara_satanama_stotram.json"
+  },
+  {
+    "id": "sri_dakshina_kali_kadgamala_stotram",
+    "title": "Sri Dakshina Kali Kadgamala Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_dakshina_kali_kadgamala_stotram.json"
+  },
+  {
+    "id": "sri_durga_chandrakala_stuti",
+    "title": "Sri Durga Chandrakala Stuti",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_durga_chandrakala_stuti.json"
+  },
+  {
+    "id": "sri_durga_sapta_shloki",
+    "title": "Sri Durga Sapta Shloki",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_durga_sapta_shloki.json"
+  },
+  {
+    "id": "sri_ganesha_suktam",
+    "title": "Sri Ganesha Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_ganesha_suktam.json"
+  },
+  {
+    "id": "sri_hari_stotram_jagajjalapalam",
+    "title": "Sri Hari Stotram - Jagajjalapalam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_hari_stotram_jagajjalapalam.json"
+  },
+  {
+    "id": "sri_hayagriva_stotram",
+    "title": "Sri Hayagriva Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_hayagriva_stotram.json"
+  },
+  {
+    "id": "sri_kali_chalisa",
+    "title": "Sri Kali Chalisa",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_kali_chalisa.json"
+  },
+  {
+    "id": "sri_kartikeya_karavalamba_stotram",
+    "title": "Sri Kartikeya Karavalamba Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_kartikeya_karavalamba_stotram.json"
+  },
+  {
+    "id": "sri_lakshmi_ashtottara_satanaama_stotram",
+    "title": "Sri Lakshmi Ashtottara Satanaama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_lakshmi_ashtottara_satanaama_stotram.json"
+  },
+  {
+    "id": "sri_lakshmi_hrudaya_stotram",
+    "title": "Sri Lakshmi Hrudaya Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_lakshmi_hrudaya_stotram.json"
+  },
+  {
+    "id": "sri_lakshmi_narayana_hrudaya_stotram",
+    "title": "Sri Lakshmi Narayana Hrudaya Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_lakshmi_narayana_hrudaya_stotram.json"
+  },
+  {
+    "id": "sri_lakshmi_sahasra_nama_stotram",
+    "title": "Sri Lakshmi Sahasra Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_lakshmi_sahasra_nama_stotram.json"
+  },
+  {
+    "id": "sri_lalitha_hrudayam",
+    "title": "Sri Lalitha Hrudayam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_lalitha_hrudayam.json"
+  },
+  {
+    "id": "sri_lalitha_trishati_stotram",
+    "title": "Sri Lalitha Trishati Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_lalitha_trishati_stotram.json"
+  },
+  {
+    "id": "sri_maha_kali_stotram",
+    "title": "Sri Maha Kali Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_maha_kali_stotram.json"
+  },
+  {
+    "id": "sri_martanda_stotram",
+    "title": "Sri Martanda Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_martanda_stotram.json"
+  },
+  {
+    "id": "sri_narasimha_kavacham",
+    "title": "Sri Narasimha Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_narasimha_kavacham.json"
+  },
+  {
+    "id": "sri_rama_apaduddharaka_stotram",
+    "title": "Sri Rama Apaduddharaka Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_rama_apaduddharaka_stotram.json"
+  },
+  {
+    "id": "sri_rama_ashtottara_sata_naama_stotram",
+    "title": "Sri Rama Ashtottara Sata Naama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_rama_ashtottara_sata_naama_stotram.json"
+  },
+  {
+    "id": "sri_rama_bhujanga_prayaata_stotram",
+    "title": "Sri Rama Bhujanga Prayaata Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_rama_bhujanga_prayaata_stotram.json"
+  },
+  {
+    "id": "sri_rama_hrudayam",
+    "title": "Sri Rama Hrudayam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_rama_hrudayam.json"
+  },
+  {
+    "id": "sri_rama_karnamrutam",
+    "title": "Sri Rama Karnamrutam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_rama_karnamrutam.json"
+  },
+  {
+    "id": "sri_rama_kavacham",
+    "title": "Sri Rama Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_rama_kavacham.json"
+  },
+  {
+    "id": "sri_rama_raksha_stotram",
+    "title": "Sri Rama Raksha Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_rama_raksha_stotram.json"
+  },
+  {
+    "id": "sri_rama_rama_ramethi",
+    "title": "Sri Rama Rama Ramethi",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_rama_rama_ramethi.json"
+  },
+  {
+    "id": "sri_ramashtakam",
+    "title": "Sri Ramashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_ramashtakam.json"
+  },
+  {
+    "id": "sri_samba_sadashiva_aksharamala_stotram",
+    "title": "Sri Samba Sadashiva Aksharamala Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_samba_sadashiva_aksharamala_stotram.json"
+  },
+  {
+    "id": "sri_shanmukha_dandakam",
+    "title": "Sri Shanmukha Dandakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_shanmukha_dandakam.json"
+  },
+  {
+    "id": "sri_shanmukha_pancharatna_stuti",
+    "title": "Sri Shanmukha Pancharatna Stuti",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_shanmukha_pancharatna_stuti.json"
+  },
+  {
+    "id": "sri_shanmukha_shatkam",
+    "title": "Sri Shanmukha Shatkam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_shanmukha_shatkam.json"
+  },
+  {
+    "id": "sri_shashti_devi_stotram",
+    "title": "Sri Shashti Devi Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_shashti_devi_stotram.json"
+  },
+  {
+    "id": "sri_shiva_aarati",
+    "title": "Sri Shiva Aarati",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_shiva_aarati.json"
+  },
+  {
+    "id": "sri_siddha_lakshmi_stotram",
+    "title": "Sri Siddha Lakshmi Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_siddha_lakshmi_stotram.json"
+  },
+  {
+    "id": "sri_srinivasa_gadyam",
+    "title": "Sri Srinivasa Gadyam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_srinivasa_gadyam.json"
+  },
+  {
+    "id": "sri_srinivasa_vidya_mantra",
+    "title": "Sri Srinivasa Vidya Mantra",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_srinivasa_vidya_mantra.json"
+  },
+  {
+    "id": "sri_subrahmanya_hrudaya_stotram",
+    "title": "Sri Subrahmanya Hrudaya Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_subrahmanya_hrudaya_stotram.json"
+  },
+  {
+    "id": "sri_subrahmanya_kavacha_stotram",
+    "title": "Sri Subrahmanya Kavacha Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_subrahmanya_kavacha_stotram.json"
+  },
+  {
+    "id": "sri_subrahmanya_sahasra_nama_stotram",
+    "title": "Sri Subrahmanya Sahasra Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_subrahmanya_sahasra_nama_stotram.json"
+  },
+  {
+    "id": "sri_subrahmanya_trishati_stotram",
+    "title": "Sri Subrahmanya Trishati Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_subrahmanya_trishati_stotram.json"
+  },
+  {
+    "id": "sri_suktam",
+    "title": "Sri Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_suktam.json"
+  },
+  {
+    "id": "sri_surya_namaskara_mantram",
+    "title": "Sri Surya Namaskara Mantram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_surya_namaskara_mantram.json"
+  },
+  {
+    "id": "sri_surya_panjara_stotram",
+    "title": "Sri Surya Panjara Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_surya_panjara_stotram.json"
+  },
+  {
+    "id": "sri_swaminatha_panchakam",
+    "title": "Sri Swaminatha Panchakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_swaminatha_panchakam.json"
+  },
+  {
+    "id": "sri_swarna_akarshana_bhairava_stotram",
+    "title": "Sri Swarna Akarshana Bhairava Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_swarna_akarshana_bhairava_stotram.json"
+  },
+  {
+    "id": "sri_venkatesha_mangalasasanam",
+    "title": "Sri Venkatesha Mangalasasanam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_venkatesha_mangalasasanam.json"
+  },
+  {
+    "id": "sri_venkateswara_mangalashtakam",
+    "title": "Sri Venkateswara Mangalashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_venkateswara_mangalashtakam.json"
+  },
+  {
+    "id": "sri_venkateswara_prapatti",
+    "title": "Sri Venkateswara Prapatti",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_venkateswara_prapatti.json"
+  },
+  {
+    "id": "sri_venkateswara_stotram",
+    "title": "Sri Venkateswara Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sri_venkateswara_stotram.json"
+  },
+  {
+    "id": "sriyah_kanthaya_kalyana_nidhaye",
+    "title": "Sriyah Kanthaya Kalyana Nidhaye",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sriyah_kanthaya_kalyana_nidhaye.json"
+  },
+  {
+    "id": "sruti_smrti",
+    "title": "Sruti Smrti",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sruti_smrti.json"
+  },
+  {
+    "id": "subrahmanya_aparadha_kshamapana_stotram",
+    "title": "Subrahmanya Aparadha Kshamapana Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/subrahmanya_aparadha_kshamapana_stotram.json"
+  },
+  {
+    "id": "subrahmanya_ashtakam_karavalamba_stotram",
+    "title": "Subrahmanya Ashtakam Karavalamba Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/subrahmanya_ashtakam_karavalamba_stotram.json"
+  },
+  {
+    "id": "subrahmanya_ashtottara_sata_nama_stotram",
+    "title": "Subrahmanya Ashtottara Sata Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/subrahmanya_ashtottara_sata_nama_stotram.json"
+  },
+  {
+    "id": "subrahmanya_ashtottara_sata_namavali",
+    "title": "Subrahmanya Ashtottara Sata Namavali",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/subrahmanya_ashtottara_sata_namavali.json"
+  },
+  {
+    "id": "subrahmanya_pancha_ratna_stotram",
+    "title": "Subrahmanya Pancha Ratna Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/subrahmanya_pancha_ratna_stotram.json"
+  },
+  {
+    "id": "subramanya_bhujangam",
+    "title": "Subramanya Bhujangam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/subramanya_bhujangam.json"
+  },
+  {
+    "id": "sukra_ashtottara_sata_nama_stotram",
+    "title": "Sukra Ashtottara Sata Nama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sukra_ashtottara_sata_nama_stotram.json"
+  },
+  {
+    "id": "sukra_graha_pancharatna_stotram",
+    "title": "Sukra Graha Pancharatna Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/sukra_graha_pancharatna_stotram.json"
+  },
+  {
+    "id": "surya_ashtakam",
+    "title": "Surya Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/surya_ashtakam.json"
+  },
+  {
+    "id": "surya_grahana_shanti_parihara_slokas",
+    "title": "Surya Grahana Shanti Parihara Slokas",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/surya_grahana_shanti_parihara_slokas.json"
+  },
+  {
+    "id": "surya_kavacham",
+    "title": "Surya Kavacham",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/surya_kavacham.json"
+  },
+  {
+    "id": "surya_mandala_stotram",
+    "title": "Surya Mandala Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/surya_mandala_stotram.json"
+  },
+  {
+    "id": "surya_suktam",
+    "title": "Surya Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/surya_suktam.json"
+  },
+  {
+    "id": "svasti_prajabhyah_paripala",
+    "title": "Svasti Prajabhyah Paripala",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/svasti_prajabhyah_paripala.json"
+  },
+  {
+    "id": "swayam_vyakta_sthalam",
+    "title": "Swayam Vyakta Sthalam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/swayam_vyakta_sthalam.json"
+  },
+  {
+    "id": "tantrokta_ratri_suktam",
+    "title": "Tantrokta Ratri Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/tantrokta_ratri_suktam.json"
+  },
+  {
+    "id": "tatpurushaya_vidmahe_rudra_gayatri_mantra",
+    "title": "Tatpurushaya Vidmahe Rudra Gayatri Mantra",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/tatpurushaya_vidmahe_rudra_gayatri_mantra.json"
+  },
+  {
+    "id": "totakashtakam",
+    "title": "Totakashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/totakashtakam.json"
+  },
+  {
+    "id": "tripura_sundari_ashtakam",
+    "title": "Tripura Sundari Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/tripura_sundari_ashtakam.json"
+  },
+  {
+    "id": "tryambakam_yajamahe",
+    "title": "Tryambakam Yajamahe",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/tryambakam_yajamahe.json"
+  },
+  {
+    "id": "tulasi_srisakhi",
+    "title": "Tulasi Srisakhi",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/tulasi_srisakhi.json"
+  },
+  {
+    "id": "tulasi_stotram",
+    "title": "Tulasi Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/tulasi_stotram.json"
+  },
+  {
+    "id": "tvameva_matha_cha",
+    "title": "Tvameva Matha Cha",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/tvameva_matha_cha.json"
+  },
+  {
+    "id": "udadhih_kramanahscaiva",
+    "title": "Udadhih Kramanahscaiva",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/udadhih_kramanahscaiva.json"
+  },
+  {
+    "id": "udaye_brahmasvarupoyam",
+    "title": "Udaye Brahmasvarupoyam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/udaye_brahmasvarupoyam.json"
+  },
+  {
+    "id": "uma_maheswara_stotram",
+    "title": "Uma Maheswara Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/uma_maheswara_stotram.json"
+  },
+  {
+    "id": "uma_usha_ca_vaidehi",
+    "title": "Uma Usha Ca Vaidehi",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/uma_usha_ca_vaidehi.json"
+  },
+  {
+    "id": "utthishto_utthishta_govinda",
+    "title": "Utthishto Utthishta Govinda",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/utthishto_utthishta_govinda.json"
+  },
+  {
+    "id": "vagarthaviva_sampruktau",
+    "title": "Vagarthaviva Sampruktau",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/vagarthaviva_sampruktau.json"
+  },
+  {
+    "id": "vaidehisahitam_sudumatale",
+    "title": "Vaidehisahitam Sudumatale",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/vaidehisahitam_sudumatale.json"
+  },
+  {
+    "id": "vaidyanatha_ashtakam",
+    "title": "Vaidyanatha Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/vaidyanatha_ashtakam.json"
+  },
+  {
+    "id": "vakrathunda_mahakaya",
+    "title": "Vakrathunda Mahakaya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/vakrathunda_mahakaya.json"
+  },
+  {
+    "id": "vande_shambu_umapatim",
+    "title": "Vande Shambu Umapatim",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/vande_shambu_umapatim.json"
+  },
+  {
+    "id": "vang_me_manasi_prathisthita",
+    "title": "Vang Me Manasi Prathisthita",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/vang_me_manasi_prathisthita.json"
+  },
+  {
+    "id": "various_gayatri_mantras",
+    "title": "Various Gayatri Mantras",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/various_gayatri_mantras.json"
+  },
+  {
+    "id": "vasudevasutam_devam",
+    "title": "Vasudevasutam Devam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/vasudevasutam_devam.json"
+  },
+  {
+    "id": "veda_vedam_ta_vedyaya",
+    "title": "Veda Vedam Ta Vedyaya",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/veda_vedam_ta_vedyaya.json"
+  },
+  {
+    "id": "vedasara_shiva_stava",
+    "title": "Vedasara Shiva Stava",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/vedasara_shiva_stava.json"
+  },
+  {
+    "id": "venkatesa_suprabhatam",
+    "title": "Venkatesa Suprabhatam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/venkatesa_suprabhatam.json"
+  },
+  {
+    "id": "vishnu_sahasranamam",
+    "title": "Vishnu Sahasranamam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/vishnu_sahasranamam.json"
+  },
+  {
+    "id": "vishnu_shatanama_stotram",
+    "title": "Vishnu Shatanama Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/vishnu_shatanama_stotram.json"
+  },
+  {
+    "id": "vishnu_shatpadi_stotram",
+    "title": "Vishnu Shatpadi Stotram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/vishnu_shatpadi_stotram.json"
+  },
+  {
+    "id": "vishnu_suktam",
+    "title": "Vishnu Suktam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/vishnu_suktam.json"
+  },
+  {
+    "id": "vishvambhari_stuti",
+    "title": "Vishvambhari Stuti",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/vishvambhari_stuti.json"
+  },
+  {
+    "id": "yaakundhendhu_thushara_hara",
+    "title": "Yaakundhendhu Thushara Hara",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/yaakundhendhu_thushara_hara.json"
+  },
+  {
+    "id": "yama_ashtakam",
+    "title": "Yama Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/yama_ashtakam.json"
+  },
+  {
+    "id": "yamuna_ashtakam",
+    "title": "Yamuna Ashtakam",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/yamuna_ashtakam.json"
+  },
+  {
+    "id": "yani_kani_cha_papani",
+    "title": "Yani Kani Cha Papani",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/yani_kani_cha_papani.json"
+  },
+  {
+    "id": "yaschandasam_rishabho",
+    "title": "Yaschandasam Rishabho",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/yaschandasam_rishabho.json"
+  },
+  {
+    "id": "yatra_yatra_raghunatha",
+    "title": "Yatra Yatra Raghunatha",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/yatra_yatra_raghunatha.json"
   }
 ]
