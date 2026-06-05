@@ -13,5 +13,10 @@
     "id": "nirvana_shatakam",
     "title": "Nirvana Shatakam",
     "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/nirvana_shatakam.json"
+  },
+  {
+    "id": "karpura_gauram",
+    "title": "Karpura Gauram",
+    "fetchUrl": "https://raw.githubusercontent.com/ParryBawa/bhakti-core/main/database/karpura_gauram.json"
   }
 ]

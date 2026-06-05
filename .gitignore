@@ -9,3 +9,7 @@ database/registry.before_3_item_fix.json
 # Temporary/log files
 *.log
 *.tmp
+
+# Ignore all local registry backup/fix files
+database/registry.backup*.json
+database/registry.before_*_fix.json
